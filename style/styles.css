@@ -21,6 +21,10 @@ Here is the left section with its divs children */
 
 /* left children */
 
+.leftBar > div {
+    background-color: lightcoral;
+}
+
 .left-profilePic {
     object-fit: fill;
     
@@ -87,8 +91,17 @@ Here is the left section with its divs children */
 
 }
 
-.right-programmingLang {
+.right-programmingLang-data {
+    width: 300px;
+    height: 171px;
+    display: flex;
 
+}
+
+.right-programmingLang-data div {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50px;
 }
 
 .right-hobbies {
@@ -126,4 +139,18 @@ th, td {
 table {
     border-collapse: collapse;
     width: 100%;
+}
+
+.langIcons {
+    display: flex;
+}
+
+h4 {
+    display: block;
+    font-size: 8.17em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 22px;
+    margin-inline-end: 12px;
+    font-weight: bold;
 }
