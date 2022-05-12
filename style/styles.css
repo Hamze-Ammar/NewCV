@@ -62,7 +62,7 @@ Here is the left section with its divs children */
 /* right section children */
 
 .right-name {
-    text-align: center;
+    text-align:center;
 
 
 }
@@ -94,5 +94,9 @@ Here is the left section with its divs children */
 /* for accessing the titles only */
 
 .title {
+    text-align: center;
+    font-size: 100%;
+    font-weight: 800;
+    font-family: Garamond, serif;
 
 }
