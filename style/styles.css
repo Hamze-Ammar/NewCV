@@ -3,6 +3,74 @@ body {
     font-family: Tahoma, Verdana, sans-serif ;
     padding-left: 15%;
     padding-right: 15%;
+    display:flex;
+    height: 100vh;
 
 }
 
+/* So the body has two sections left and right
+Here is the left section with its divs children */
+
+.leftBar {
+
+}
+
+/* left children */
+
+.left-profilePic {
+
+}
+
+.left-address {
+
+}
+
+.left-email {
+
+}
+
+.left-githubAcc {
+
+}
+
+.left-linkedInAcc {
+
+}
+
+/* Right section with its children */
+
+.rightBar {
+
+}
+
+/* right section children */
+
+.right-summary {
+
+}
+
+.right-workExperience {
+
+}
+
+.right-education {
+
+}
+
+.right-languages {
+
+}
+
+.right-programmingLang {
+
+}
+
+.right-hobbies {
+
+}
+
+/* for accessing the titles only */
+
+.title {
+
+}
