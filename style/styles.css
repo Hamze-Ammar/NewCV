@@ -54,7 +54,9 @@ Here is the left section with its divs children */
 /* right section children */
 
 .right-name {
+    text-align: center;
     
+
 }
 
 .right-summary {
