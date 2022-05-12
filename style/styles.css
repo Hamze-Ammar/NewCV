@@ -22,7 +22,7 @@ Here is the left section with its divs children */
 /* left children */
 
 .leftBar > div {
-    background-color: lightcoral;
+    
 }
 
 .left-profilePic {
@@ -147,7 +147,7 @@ table {
 
 h4 {
     display: block;
-    font-size: 8.17em;
+    font-size: 1.8em;
     margin-block-start: 0em;
     margin-block-end: 0em;
     margin-inline-start: 22px;
