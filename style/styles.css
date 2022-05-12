@@ -4,7 +4,7 @@ body {
     padding-left: 15%;
     padding-right: 15%;
     display:flex;
-    height: 100vh;
+    height: 300vh;
 
 }
 
@@ -56,12 +56,15 @@ Here is the left section with its divs children */
     background-color: lightgray;
     display:flex;
     flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
 
 }
 
 /* right section children */
 
 .right-name {
+    font-size: 1.9vw;
     text-align:center;
 
 
@@ -95,8 +98,31 @@ Here is the left section with its divs children */
 
 .title {
     text-align: center;
-    font-size: 100%;
+    font-size: 1.8vw;
     font-weight: 800;
     font-family: Garamond, serif;
 
+}
+
+p, ul, table {
+    display: block;
+    font-size: 1.2vw;
+    margin-block-start: 0em;
+    margin-block-end: 2em;
+    margin-inline-start: 25px;
+    margin-inline-end: 25px;
+    text-align: justify;
+}
+
+table , td, th {
+    text-align: center;
+}
+
+th, td {
+    padding: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
 }
