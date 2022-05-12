@@ -22,7 +22,15 @@ Here is the left section with its divs children */
 /* left children */
 
 .left-profilePic {
+    object-fit: fill;
+    
 
+}
+
+.profilePic {
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
 }
 
 .left-address {
@@ -55,7 +63,7 @@ Here is the left section with its divs children */
 
 .right-name {
     text-align: center;
-    
+
 
 }
 
