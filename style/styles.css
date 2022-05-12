@@ -17,7 +17,6 @@ Here is the left section with its divs children */
     display:flex;
     flex-direction: column;
 
-
 }
 
 /* left children */
@@ -29,7 +28,6 @@ Here is the left section with its divs children */
 .left-profilePic {
     object-fit: fill;
     
-
 }
 
 .profilePic {
@@ -39,21 +37,6 @@ Here is the left section with its divs children */
     border-radius: 100%;
 }
 
-.left-address {
-
-}
-
-.left-email {
-
-}
-
-.left-githubAcc {
-
-}
-
-.left-linkedInAcc {
-
-}
 
 /* Right section with its children */
 
@@ -73,24 +56,8 @@ Here is the left section with its divs children */
     font-size: 1.7vw;
     text-align:center;
 
-
 }
 
-.right-summary {
-
-}
-
-.right-workExperience {
-
-}
-
-.right-education {
-
-}
-
-.right-languages {
-
-}
 
 .right-programmingLang-data {
     width: 300px;
