@@ -1,5 +1,5 @@
 body {
-    background-color: lightgrey;
+    background-color: rgb(233, 181, 181);
     font-family: Tahoma, Verdana, sans-serif ;
     padding-left: 15%;
     padding-right: 15%;
@@ -12,6 +12,8 @@ body {
 Here is the left section with its divs children */
 
 .leftBar {
+    flex-basis: 30%;
+    background-color: grey;
 
 }
 
@@ -40,6 +42,8 @@ Here is the left section with its divs children */
 /* Right section with its children */
 
 .rightBar {
+    flex-basis: 70%;
+    background-color: lightgray;
 
 }
 
